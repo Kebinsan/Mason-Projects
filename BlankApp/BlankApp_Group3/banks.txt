@@ -1,0 +1,17 @@
+12 checking 884.03
+23.99 11/20/2019 retail false withdrawal
+200.00 11/15/2019 miscellaneous true deposit
+30.00 11/13/2019 gas true withdrawal
+#
+34 credit 223.94 43.22
+23.99 11/20/2019 retail false withdrawal
+200.00 11/15/2019 miscellaneous false deposit
+30.00 11/13/2019 gas true withdrawal
+40.20 11/10/2019 gas true withdrawal
+50.00 11/5/2019 miscellaneous true deposit
+#
+56 savings 1244.44 0.013
+23.99 11/20/2019 retail false withdrawal
+200.00 11/15/2019 miscellaneous true deposit
+30.00 11/13/2019 gas true withdrawal
+ 
