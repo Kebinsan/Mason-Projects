@@ -1,0 +1,180 @@
+.container-fluid{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+
+.left-image{
+    background: linear-gradient(transparent, transparent, white), url(images/sushi.jpg);
+	height: 100%;
+	margin-left: 0;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+	border-right: solid;
+	border-width: 2px;
+	border-color: #DC143C;
+}
+nav {
+	background-color: #DC143C;
+	padding: 10px;
+	color: white;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 2px;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #f9bbc8;
+}
+
+nav button {
+	display: block;
+	float: right;
+}
+
+h5 {
+	text-align: center;
+}
+.main-content {
+	margin-top: -20px;
+}
+.form-inline {
+	text-align: center;
+}
+
+.form-group {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-group-toggle {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.btn-secondary {
+	background-color: #DC143C !important;
+	border-color: 	#DC143C !important;
+}
+
+.active {
+	background-color: #820c23 !important;
+	border-color: 	#820c23 !important;
+}
+	
+#address-form {
+	padding-top: 75px;
+	padding-bottom: 250px;
+	text-align: center;
+	margin-left: -15px auto;
+	background: linear-gradient(#fef1f4, #fef1f4, transparent);
+}
+
+#address-form p {
+	font-size: 20px;
+}
+
+.btn-primary {
+	background-color: 	#DC143C !important;
+	border-color: 	#DC143C !important;
+}
+
+.btn-primary:hover {
+	background-color: #5e091a !important;
+	border-color: #5e091a !important;
+}
+
+.left-col {
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+}
+
+.right-col {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.drone {
+	margin-bottom: -100px;
+	margin-top: 50px;
+}
+.no-padding {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+h2 {
+	padding-top: 50px;
+	text-align: center;
+	
+}
+
+footer {
+	background-color: #5e091a;
+	padding: 50px;
+	color: white;
+
+}
+
+footer a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+footer p {
+	text-align: center;
+}
+
+form {
+	display: inline-block;
+}
+
+.download-app {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+@media (max-width: 767.9px) {
+	#address-form {
+		background: linear-gradient(transparent, transparent, #fef1f4), url(images/sushi.jpg);
+		height: 100%;
+		margin-left: 0;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		padding-top: 100px;
+		color: white;
+		text-shadow: 2px 2px 4px #000000;
+	}
+	
+	#address-form p {
+		font-size: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	.right-col {
+	background-color: #fef1f4;
+	}
+}
+
+@media (max-width: 500px) {
+	nav a{
+		display: none;
+	}
+}
